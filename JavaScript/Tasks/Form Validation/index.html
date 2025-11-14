@@ -1,0 +1,40 @@
+<!--
+Form Validation
+Validate a form (e.g., name, email, password) before submission and show error messages.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-Container">
+        <h2>Log in</h2>
+        <form>
+            <div class="name-conatiner">
+                <label for="name-input">Full Name</label>
+                <input type="text" id="name-input" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="Email-conatiner name-conatiner">
+                <label for="">Email Address</label>
+                <input type="email" name="email" id="input-Email" placeholder="Enter Your Email" required>
+            </div>
+
+            <div class="pass-conatiner name-conatiner">
+                <label for="input-password">Enter Password</label>
+                <input type="password" name="password" id="input-password" placeholder="Enter Password">
+            </div>
+            <div class="btn-conatiner">
+                <button class="submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+

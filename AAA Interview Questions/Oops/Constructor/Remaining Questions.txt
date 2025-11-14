@@ -1,0 +1,30 @@
+
+What is the difference between constructor overloading and method overloading?
+
+Can we inherit constructors from a superclass? Explain.
+
+How are constructors different from factory methods?
+
+Can we overload the default constructor in Java?
+
+Advanced / Tricky Level
+
+Can a constructor be synchronized in Java? Why or why not?
+
+What happens if you put a return statement inside a constructor?
+
+Is it possible to call a constructor directly using the class name (like a method)?
+
+Why is constructor chaining important in inheritance?
+
+Can an interface have a constructor? Why?
+
+Can an abstract class have a constructor? Explain with example.
+
+What is the order of constructor execution in a multi-level inheritance hierarchy?
+
+Can a constructor invoke a method of the same class? If yes, give an example.
+
+What is the role of constructors in immutability of objects?
+
+How is dependency injection implemented using constructors?

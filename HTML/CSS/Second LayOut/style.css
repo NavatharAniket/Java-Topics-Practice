@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    
+}
+
+head,body{
+    height: 100%;
+    width: 100%;
+    //background-color: rgb(149, 147, 145);
+}
+
+.container{
+    height: 100%;
+    width: 60%;
+   background-color:rgb(214, 207, 207) ;
+    margin: auto;
+   border-radius: 20px;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgb(121, 111, 111);
+    border: 3px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.logo{
+    width: 50%;
+    float: left;
+    //background-color: black; 
+    padding-left: 30px;
+    font-size: large;
+}
+
+.right-nav{
+    width: 50%;
+    float: right;
+   // background-color: rgb(233, 222, 222);
+    text-align: end;
+    padding-right: 30px;
+    font-size: large;
+}
+
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(121, 111, 111);
+    margin-top: 20px;
+    text-align: center;
+    line-height: 100px;
+    border: 3px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.intro{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(121, 111, 111);
+    margin-top: 20px;
+    text-align: center;
+    line-height: 200px;
+    border: 3px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slider {
+    height: 200px;
+    width: 100%;
+   // background-color: rgb(121, 111, 111);
+    margin-top: 20px;
+    overflow: hidden; 
+    border: 3px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card1 {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(121, 111, 111);
+    text-align: center;
+    line-height: 200px;
+    border: 3px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.card3 {
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(121, 111, 111);
+    text-align: center;
+    line-height: 200px;
+    border: 3px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.card2 {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+    background-color: rgb(121, 111, 111);
+    text-align: center;
+    line-height: 200px;
+    border: 3px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.footer{
+    height: 130px;
+    width: 100%;
+    background-color: rgb(121, 111, 111);
+    text-align: center;
+    line-height: 100px;
+    font-size: xx-large;
+    margin-top: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+

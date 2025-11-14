@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="calc1.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://cdn.moglix.com/p/c9FMNnPIFznkM-xxlarge.jpg" alt="">
+        <div class="form">
+            <h1>Calculator App</h1>
+
+            <label for="num1">Enter First number</label>
+            <input type="text" id="num1">
+
+            <label for="num2">Enter Second number</label>
+            <input type="text" id="num2">
+
+            <label for="operation">Select Operation</label>
+            <select id="operation">
+                <option value="">Select Operation</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+
+            <label for="output">Result</label>
+            <input type="text" id="output" readonly>
+
+            <div class="bt">
+                <button id="Result">Result</button>
+                <button id="Clear">Clear</button>
+            </div>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+
+</html>

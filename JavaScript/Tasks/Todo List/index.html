@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Table</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            width: 60%;
+        }
+
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .add-btn-container {
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table id="taskTable">
+            <tr>
+                <th>Tasks</th>
+                <th>Buttons</th>
+            </tr>
+            <tr>
+                <td>Aniket</td>
+                <td><button class="remove">Remove</button></td>
+            </tr>
+            <tr>
+                <td>xyz</td>
+                <td><button class="remove">Remove</button></td>
+            </tr>
+            <tr>
+                <td>abc</td>
+                <td><button class="remove">Remove</button></td>
+            </tr>
+        </table>
+
+        <div class="add-btn-container">
+            <button id="add">Add</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

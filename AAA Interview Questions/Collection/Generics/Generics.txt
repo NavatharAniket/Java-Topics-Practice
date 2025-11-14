@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+🔹 Advanced Generics Questions
+
+How does Java implement generics internally (Type Erasure)?
+
+Why are generic type parameters not reified at runtime?
+
+What are the limitations of generics due to type erasure?
+
+Can you create a generic exception class in Java? Why or why not?
+
+Can you overload methods based on generic types?
+
+How do wildcards help in designing flexible APIs?
+
+Explain PECS (Producer Extends, Consumer Super) principle.
+
+Why can’t we do new T() inside a generic class? How can we work around this?
+
+How do generics affect performance compared to non-generic collections?
+
+How do generics interact with reflection in Java?
+
+🔹 Scenario-Based Questions
+
+How would you design a generic class that works only with Number and its subclasses?
+
+Suppose you want a method that copies elements from one list to another regardless of subtype. How would you define it?
+
+How would you write a generic method to find the maximum element in an array of comparable objects?
+
+You have List<Integer> and List<Double>. How can you write a single method to process both?
+
+Can you write a generic class that accepts two different type parameters? Give an example.
+
+How would you enforce that a generic type implements multiple interfaces?
+
+Write a generic method that checks if two arrays contain the same set of elements.
+
+How would you design a generic cache class?
+
+Can you make a generic method that sorts any type of List? How?
+
+Suppose you want to restrict a generic type to only Comparable types. How would you do it?

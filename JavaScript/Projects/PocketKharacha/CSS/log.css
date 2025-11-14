@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: lightcoral;
+    display: flex;
+
+}
+
+.left-nav{
+    height: 100%;
+    width: 50%;
+
+}
+
+.right-nav{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.4vw;
+}
+
+.right-nav ul li{
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper{
+    min-height:70%;
+    background-color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.FormFill{
+    height:fit-content;
+    width: fit-content;
+    background-color: lightpink;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button{
+    font-size: 1.2vw;
+    padding: 10px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6D0076;
+    color:white;
+}
+
+table{
+    height: 30vh;
+    width: 25vw;
+    background-color: whitesmoke;
+    background: lightpink;
+}
+
+label{
+    font-size: 1.2vw;
+}
+caption{
+    font-size: 3vw;
+    font-weight: 600;
+
+    margin: 20px 0;
+}
+
+input{
+    font-size: 1.2vw;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+
+}
+footer{
+    height: 19.5%;
+    width: 100%;
+    background-color:#111827;
+    color: white;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrappper{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+@media (min-width: 320px ) and (max-width: 426px) {
+    .wrappper {
+        background-color: blue;
+    }
+}
+
+@media (min-width:426px) and (max-width: 768px) {
+    .wrappper {
+        background-color: green;
+    }
+}

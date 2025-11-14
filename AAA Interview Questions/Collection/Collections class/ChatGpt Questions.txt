@@ -1,0 +1,50 @@
+
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
+Utility Methods
+
+What is the use of Collections.unmodifiableList()?
+
+What is the difference between Collections.emptyList() and Collections.EMPTY_LIST?
+
+What is the purpose of Collections.singletonList()?
+
+How does Collections.nCopies(int n, T obj) work?
+
+What does Collections.reverse(List<?> list) do?
+
+Advanced / Tricky Questions
+
+What is the difference between Collections.max() and Collections.min()?
+
+How does Collections.frequency(Collection<?> c, Object o) work internally?
+
+Explain the working of Collections.disjoint(Collection<?> c1, Collection<?> c2).
+
+How can you shuffle elements of a list randomly using Collections?
+
+What is the role of Collections.checkedList()?
+
+Scenario-based
+
+How do you make a list immutable in Java using Collections?
+
+How do you create a list with 100 copies of "Hello" string using Collections?
+
+Suppose you want only one element in a list, but the list must not allow modifications — how will you do it?
+
+How can you convert a non-thread-safe ArrayList into a thread-safe one using Collections?
+
+If two threads are accessing Collections.synchronizedMap(), will it prevent ConcurrentModificationException? Why or why not?

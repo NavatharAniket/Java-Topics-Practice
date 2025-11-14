@@ -1,0 +1,65 @@
+⚙️ Intermediate Level
+
+Producer-Consumer Problem
+
+Implement the classic problem using wait() and notify().
+
+Banking System Simulation
+
+Multiple threads try to withdraw from a single account balance. Synchronize it properly.
+
+Deadlock Simulation
+
+Create two threads that cause a deadlock. Then, fix it.
+
+Race Condition Example
+
+Create a shared counter and multiple threads trying to increment it without synchronization.
+
+File Downloader Simulator
+
+Simulate 3 threads downloading 3 parts of a file concurrently.
+
+Dining Philosophers Problem
+
+Simulate 5 philosophers who alternate between thinking and eating. Avoid deadlock.
+
+Space Shooter Game
+
+A player fires bullets. Each bullet is a thread that moves independently (as discussed earlier).
+
+🔁 Advanced Practice
+
+Thread Pool Implementation Using ExecutorService
+
+Submit multiple tasks to a fixed thread pool and manage their completion.
+
+Custom Thread Scheduler
+
+Build a simple scheduler that runs threads in round-robin fashion.
+
+Multithreaded Matrix Multiplication
+
+Use threads to multiply two large matrices in parallel.
+
+Traffic Light Simulation
+
+Use threads to simulate a traffic light system with RED, GREEN, and YELLOW lights changing in order.
+
+Multithreaded Chat Server
+
+Create a simple server that handles multiple clients (each in its own thread).
+
+🧑‍💻 Bonus Challenges
+
+Simulate Airport Runway
+
+Multiple planes (threads) request permission to land (use synchronized blocks to manage access to the runway).
+
+Read/Write Lock Implementation
+
+Create a scenario where multiple reader threads can access a resource simultaneously, but only one writer can write.
+
+Concurrent File Search
+
+Given a directory, use multiple threads to search for a keyword in all files.

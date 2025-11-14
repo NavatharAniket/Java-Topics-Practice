@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <ul class="menu" id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+
+        <li class="dropdown">
+          <a href="">Services</a>
+          <ul class="submenu">
+            <li><a href="#">Service1</a></li>
+            <li><a href="#">Service2</a></li>
+            <li><a href="#">Service3</a></li>
+            <li><a href="#">Service4</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="">Products</a>
+          <ul class="submenu">
+            <li><a href="#">Product1</a></li>
+            <li><a href="#">Product2</a></li>
+            <li><a href="#">Product3</a></li>
+            <li><a href="#">Product4</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <script>
+      const toggle = document.getElementById("menu-toggle");
+      const menu = document.getElementById("menu");
+      toggle.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

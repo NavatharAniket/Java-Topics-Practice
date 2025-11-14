@@ -1,0 +1,52 @@
+
+
+
+
+Can we override methods of one class in another? Explain.
+
+Can a class exist without a main method in Java?
+
+What is the default value of an object reference variable in Java?
+
+Can we declare a class inside another class? What is it called?
+
+What is the difference between static and non-static members of a class?
+
+Can we create an object without using the new keyword in Java?
+
+Can we assign one object reference to another? What happens internally?
+
+What is object reusability in Java?
+
+🔹 Advanced Level (Deep Understanding)
+
+What are anonymous objects in Java? When should you use them?
+
+What is the difference between shallow copy and deep copy of objects?
+
+How does garbage collection work with objects in Java?
+
+What is object immutability in Java? How can you create an immutable class?
+
+Can an object access private members of another object of the same class?
+
+What is the difference between == operator and equals() method in Java objects?
+
+Why is the Object class considered the root class of all classes in Java?
+
+What are the important methods of the Object class?
+
+How does the hashCode() and equals() contract work for objects?
+
+Can we create an object of an abstract class? If not, why?
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: grid;
+
+    grid-template-rows: 80px 3fr 1fr;
+    grid-template-columns: 1fr 3fr;
+
+    grid-template-areas: "header header" "slider main" "footer footer";
+    gap: 10px;
+
+}
+
+.header{
+    grid-area: header;
+    background-color: burlywood;
+}
+
+.navigation{
+    grid-area: navigation;
+    display: none;
+    background-color: pink;
+}
+
+.slider{
+    grid-area: slider;
+    background-color: burlywood;
+}
+
+.main{
+    grid-area: main;
+    background-color: burlywood;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: burlywood;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <title>Order Form</title>
+	<style>
+		table,tr,th,td{
+				
+				border: 1px solid black;
+				border-collapse:collapse;
+				padding:30px;
+				text-align:center;
+			}
+	</style>
+</head>
+<body>
+
+    <h2>Order Form</h2>
+
+    <table >
+        <form>
+            <tr>
+                <td><label>Full Name:</label></td>
+                <td><input type="text"  name="fullName"></td>
+            </tr>
+            <tr>
+                <td><label >Email:</label></td>
+                <td><input type="email" name="email" placeholder="aniketnavathar@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label >Phone:</label></td>
+                <td><input type="tel" name="phone" placeholder="9657601923"></td>
+            </tr>
+            <tr>
+                <td><label >Product Selection:</label></td>
+                <td>
+                    <input type="Search" name="Search">
+                </td>
+            </tr>
+            <tr>
+                <td><label >Quantity:</label></td>
+                <td><input type="number" name="quantity" ></td>
+            </tr>
+            <tr>
+                <td><label >Address (min 50 characters):</label></td>
+                <td><input type="text" name="address" style="height:100px;width:300px"></input></td>
+            </tr>
+            <tr>
+                <td><label>Payment Mode:</label></td>
+                <td>
+                    <input type="radio" name="paymentMode"> Credit Card
+                    <input type="radio" name="paymentMode" > UPI
+                    <input type="radio"  name="paymentMode"> CAsh
+                </td>
+            </tr>
+            <tr>
+                <td><label >Upload Payment Screenshot (PNG/JPG, max 2MB):</label></td>
+                <td><input type="file"  name="paymentScreenshot" ></td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <input type="submit" >
+                </td>
+            </tr>
+        </form>
+    </table>
+
+    <h2>Submitted Orders</h2>
+
+    <table >
+        
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Address</th>
+                <th>Payment Mode</th>
+            </tr>
+        
+            <tr>
+                <td>Aniket Navathar</td>
+                <td>aniketnavathar@example.com</td>
+                <td>9657601923</td>
+                <td>Product A</td>
+                <td>2</td>
+                <td>karve nagar, pune</td>
+                <td>Cash</td>
+            </tr>
+            <tr>
+		<td>Aniket Navathar</td>
+                <td>aniketnavathar@example.com</td>
+                <td>9657601923</td>
+                <td>Product A</td>
+                <td>2</td>
+                <td>karve nagar, pune</td>
+                <td>Cash</td>
+            </tr>
+        
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+Write a program to check if two Integer objects have the same value and also check their references using ==.
+
+Implement a method that takes a List<Integer> and returns the sum without unboxing manually (use wrappers).
+
+Show what happens when you try to unbox a null Integer. Handle the exception gracefully.
+
+Write a program to demonstrate the caching behavior of Integer between -128 and 127.
+
+Create a function that converts an int[] into a List<Integer> using wrapper classes.
+
+Hard (Tricky / Interview Style)
+
+Write a program that compares the following and explains the output:
+
+Integer a = 127;
+Integer b = 127;
+Integer c = 128;
+Integer d = 128;
+System.out.println(a == b);
+System.out.println(c == d);
+
+
+Write a program to sort a list of numbers given as Strings (["10", "2", "30"]) using wrapper conversions.
+
+Demonstrate the behavior of Double.NaN, Double.POSITIVE_INFINITY, and Double.NEGATIVE_INFINITY using wrapper comparisons.
+
+Implement a function that checks if a string is a valid integer using Integer.parseInt() safely.
+
+Write a program to count the frequency of digits in a number using wrapper conversions.
+
+Show how wrapper classes can be used in generics when working with methods like max(List<T extends Number>).
+
+Demonstrate boxing/unboxing inside loops and discuss performance overhead.
+
+Implement a function that converts a list of primitive int to List<Integer> without using streams.
+
+Write a program that reads numbers as String from the console and stores them in ArrayList<Double> using wrappers.
+
+Create a mini project where you take mixed numeric inputs ("123", "45.6", "78") as Strings and convert them into appropriate wrapper objects (Integer, Double) dynamically.

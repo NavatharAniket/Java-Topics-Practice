@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Intrest{
+public static void main(String[] args){
+Scanner Sc = new Scanner(System.in);
+System.out.println("Enter Principle");
+int p = sc.nextInt();
+System.out.println("enter rate");
+int r = sc.nextInt();
+System.out.println("enter time");
+int t = sc.nextInt();
+
+int intrest = (p*r*t)/100;
+
+}
+}

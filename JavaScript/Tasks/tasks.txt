@@ -1,0 +1,48 @@
+
+Keyboard Event Tracker
+
+Display the key the user presses on the screen.
+
+🔵 Advanced Tasks (Combining Logic + DOM + Events)
+
+Drag and Drop
+
+Implement a simple drag-and-drop feature for moving elements between containers.
+
+Theme Switcher (Light/Dark Mode)
+
+Toggle the website's theme using a switch or button.
+
+Dynamic Table Generator
+
+Create a form to accept rows and columns, then generate a table dynamically.
+
+Stopwatch / Timer
+
+Build a stopwatch with Start, Stop, and Reset functionality.
+
+Modal Popup
+
+Display a modal window (popup) when a button is clicked, with a close button.
+
+🧠 Bonus Challenges (Stretch your skills)
+
+Virtual Keyboard
+
+Build an on-screen keyboard that types into an input field when buttons are clicked.
+
+Custom Dropdown Menu
+
+Create a styled dropdown menu that opens/closes on click, not using <select>.
+
+Quiz App
+
+A simple quiz that shows one question at a time, records user answers, and displays the score.
+
+Sticky Navigation on Scroll
+
+Make a navbar stick to the top of the screen when scrolling down.
+
+Real-time Character Counter
+
+Show a live character counter as the user types in a textarea, limiting input length.

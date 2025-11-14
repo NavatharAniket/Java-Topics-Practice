@@ -1,0 +1,22 @@
+body{
+    height: 200vh;
+}
+
+.posi{
+    
+    background-color: red;
+    height: 100px;
+    width: 100px;
+     position:fixed ;
+     top: 100px;
+     left: 300px;
+     transition: margin-right;
+     transform: (45deg);
+     
+}
+.A{
+    height: 10px;
+    width: 200px;
+    background-color: pink;
+    transition-: ;
+}

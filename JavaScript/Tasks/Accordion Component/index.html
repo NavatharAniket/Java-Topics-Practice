@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Component</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body div {
+            height: fit-content;
+            width: 60%;
+            border: 1px solid block;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .top {
+            height: fit-content;
+            width: 100%;
+            border-bottom: 1px solid black;
+
+
+        }
+
+        .btn {
+            margin: 10px auto;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            outline: 1px solid rgb(79, 44, 44);
+            color: rgb(114, 100, 100);
+            background-color: rgb(246, 235, 235);
+            font-size: .8rem;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="top">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, ipsam. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Exercitationem adipisci, esse suscipit eveniet non molestias tempora,
+                aperiam dolorem dicta natus quam architecto, incidunt unde fugiat labore atque nisi ipsum inventore.</p>
+            <p class="hide">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde libero aperiam ad, aspernatur repellat
+                cumque quasi enim! Sunt cum nam qui omnis, rerum repudiandae suscipit laboriosam delectus et accusantium
+                consequuntur voluptas optio eius necessitatibus minima nihil iusto ex dolores, unde vero culpa
+                voluptates distinctio. Praesentium rem soluta accusantium, sint architecto ipsam voluptatibus ad! Hic
+                dolorem aliquam incidunt maiores veniam dicta, expedita facere voluptatum, beatae optio animi tenetur
+                mollitia qui reiciendis ducimus non nobis sed! Perspiciatis, voluptatibus? Est quisquam placeat deleniti
+                dicta eveniet quae beatae molestias reiciendis ab quidem rerum, inventore nisi dolore alias sit dolorem
+                fugiat provident minima facilis. Ipsa!
+            </p>
+        </div>
+        <button class="btn">Read More</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
